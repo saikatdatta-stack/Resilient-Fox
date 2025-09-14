@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExtlClntAppConfigurablePolicies xmlns="http://soap.sforce.com/2006/04/metadata">
+    <externalClientApplication>Customer_Order_Status</externalClientApplication>
+    <isEnabled>true</isEnabled>
+    <isOauthPluginEnabled>true</isOauthPluginEnabled>
+    <isPushPluginEnabled>false</isPushPluginEnabled>
+    <label>Customer_Order_Status_plcy</label>
+    <startPage>None</startPage>
+</ExtlClntAppConfigurablePolicies>

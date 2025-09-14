@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExtlClntAppOauthSettings xmlns="http://soap.sforce.com/2006/04/metadata">
+    <commaSeparatedOauthScopes>Basic, Api, Full, RefreshToken, OpenID</commaSeparatedOauthScopes>
+    <externalClientApplication>Get_Opportunities</externalClientApplication>
+    <isFirstPartyAppEnabled>false</isFirstPartyAppEnabled>
+    <label>Get_Opportunities_oauth</label>
+    <oauthLink>00DQy00000Fp3fy:888Qy000000fphh</oauthLink>
+</ExtlClntAppOauthSettings>

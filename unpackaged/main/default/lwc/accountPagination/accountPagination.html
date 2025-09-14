@@ -1,0 +1,23 @@
+<template>
+    <lightning-card title="Paginated Accounts">
+        <template if:true={accounts}>
+            <template for:each={accounts} for:item="acc">
+                <p key={acc.Id}>{acc.Name} - {acc.Industry} - {acc.Rating}</p>
+            </template>
+        </template>
+
+        <div class="slds-m-top_medium">
+            <lightning-button label="Previous"
+                              onclick={handlePrevious}
+                              disabled={isPreviousDisabled}>
+            </lightning-button>
+
+            <lightning-button label="Next"
+                              onclick={handleNext}
+                              disabled={isNextDisabled}>
+            </lightning-button>
+        </div>
+
+        <p>Page {pageNumber} of {totalPages}</p>
+    </lightning-card>
+</template>

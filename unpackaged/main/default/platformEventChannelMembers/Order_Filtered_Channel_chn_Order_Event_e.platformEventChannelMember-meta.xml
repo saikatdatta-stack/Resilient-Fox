@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PlatformEventChannelMember xmlns="http://soap.sforce.com/2006/04/metadata">
+    <eventChannel>Order_Filtered_Channel__chn</eventChannel>
+    <filterExpression>City__c=&#39;San Francisco&#39; AND Amount__c&lt;1000</filterExpression>
+    <selectedEntity>Order_Event__e</selectedEntity>
+</PlatformEventChannelMember>
