@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Fetch Conversion Rates</label>
+    <protected>false</protected>
+    <values>
+        <field>API_Key__c</field>
+        <value xsi:type="xsd:string">80b83b76c6abd71d6f0186a823808ac4</value>
+    </values>
+    <values>
+        <field>Host__c</field>
+        <value xsi:type="xsd:string">http://data.fixer.io/api/latest</value>
+    </values>
+    <values>
+        <field>Purpose__c</field>
+        <value xsi:type="xsd:string">?access_key=</value>
+    </values>
+</CustomMetadata>

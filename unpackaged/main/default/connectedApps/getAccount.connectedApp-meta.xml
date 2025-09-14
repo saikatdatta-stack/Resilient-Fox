@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>ussaikatdatta@gmail.com</contactEmail>
+    <label>getAccount</label>
+    <oauthConfig>
+        <callbackUrl>https://www.google.co.in/</callbackUrl>
+        <certificate>MIIEXjCCA0agAwIBAgIOAZUXbOrZAAAAAAmvG3gwDQYJKoZIhvcNAQELBQAweDEQMA4GA1UEAwwHQWNjb3VudDEYMBYGA1UECwwPMDBEUXkwMDAwMEZwM2Z5MRcwFQYDVQQKDA5TYWxlc2ZvcmNlLmNvbTEWMBQGA1UEBwwNU2FuIEZyYW5jaXNjbzELMAkGA1UECAwCQ0ExDDAKBgNVBAYTA1VTQTAeFw0yNTAyMTgwNDU5MjhaFw0yNjAyMTgwMDAwMDBaMHgxEDAOBgNVBAMMB0FjY291bnQxGDAWBgNVBAsMDzAwRFF5MDAwMDBGcDNmeTEXMBUGA1UECgwOU2FsZXNmb3JjZS5jb20xFjAUBgNVBAcMDVNhbiBGcmFuY2lzY28xCzAJBgNVBAgMAkNBMQwwCgYDVQQGEwNVU0EwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDTTcfwRJ13lkOM8TCcWQ+witZdp5CHQEkR+st113ponedoYzs4aYgy03qj8X8dPDH1PevXHXFlz/n5Lo+6nO5DiLvRtP+kYvaTic0+DjdG8F1OdcqfR/EEnFQKQDVWhyhr323kKgCqpnR+DzVTLNmEXNtMpCGDGI10/ioNY1hSexJBbJ2YMYXfGv059zalSOJIW/c/2p7lh+q1bQxzahhVLObepUjVuHFzh6WVlKUKtxaFQQNFuQLAz1NZcysfxX/3KeEP8SNt5RAu1uG/mE+VU3N5E3ksHfscbGojDwE82d2lNknRxSUtswx9aLeMXsIglH++V7ldc4drqBTa5lXTAgMBAAGjgeUwgeIwHQYDVR0OBBYEFJNQ9xB3S1xAr+DmmHQ102/UNKjOMA8GA1UdEwEB/wQFMAMBAf8wga8GA1UdIwSBpzCBpIAUk1D3EHdLXECv4OaYdDXTb9Q0qM6hfKR6MHgxEDAOBgNVBAMMB0FjY291bnQxGDAWBgNVBAsMDzAwRFF5MDAwMDBGcDNmeTEXMBUGA1UECgwOU2FsZXNmb3JjZS5jb20xFjAUBgNVBAcMDVNhbiBGcmFuY2lzY28xCzAJBgNVBAgMAkNBMQwwCgYDVQQGEwNVU0GCDgGVF2zq2QAAAAAJrxt4MA0GCSqGSIb3DQEBCwUAA4IBAQB3msS2EfVBUqQLLjr0wTVGerNEX5ucxtBXAIulS5taqWcvNY7Pkr6hP/pYnAiHno1XVk6HVCjUKPnJhbf4OjBnYeTFnIntn1+JEyOnzeYNIcbl+z1I3Y3z5sFi8+cluq6uqaaYwpEjdNAFK8U6UI7Yx4niT7Tba6WtithWi+Nkfuj7O0wJ2qq/NqyaV/4n2pi+d9dVwiwATBCZ0AKvvT0lc1S1AJ+RXlmYlpurckav1kWcC3FcQNO/jCl0oK5ObDFkkYgzxho9wIFakgP+ntXgPLvODLxfksQMACt/1+M+nS4GtBjNPZ/NerQD43/XFfCO7c4KkxhA3xdq0y8VvD3z</certificate>
+        <consumerKey>3MVG9k02hQhyUgQDGP2u0zSOkVJUuaZ0rK8798Eh5tf.jYIhto1JrzGz0n3xo..a52FIQhZ1Aov3DIMa6XV6U</consumerKey>
+        <isAdminApproved>false</isAdminApproved>
+        <isClientCredentialEnabled>false</isClientCredentialEnabled>
+        <isCodeCredentialEnabled>false</isCodeCredentialEnabled>
+        <isCodeCredentialPostOnly>false</isCodeCredentialPostOnly>
+        <isConsumerSecretOptional>false</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <isNamedUserJwtEnabled>false</isNamedUserJwtEnabled>
+        <isPkceRequired>true</isPkceRequired>
+        <isRefreshTokenRotationEnabled>false</isRefreshTokenRotationEnabled>
+        <isSecretRequiredForRefreshToken>true</isSecretRequiredForRefreshToken>
+        <isSecretRequiredForTokenExchange>false</isSecretRequiredForTokenExchange>
+        <isTokenExchangeEnabled>false</isTokenExchangeEnabled>
+        <scopes>Basic</scopes>
+        <scopes>Api</scopes>
+        <scopes>Full</scopes>
+        <scopes>RefreshToken</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>ENFORCE</ipRelaxation>
+        <isTokenExchangeFlowEnabled>false</isTokenExchangeFlowEnabled>
+        <refreshTokenPolicy>infinite</refreshTokenPolicy>
+    </oauthPolicy>
+</ConnectedApp>

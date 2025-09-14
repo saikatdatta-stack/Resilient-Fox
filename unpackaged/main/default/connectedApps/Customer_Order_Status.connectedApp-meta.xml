@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>help.desk@mycompany.com</contactEmail>
+    <description>Connected app to securely access customer order status.</description>
+    <iconUrl>https://login.salesforce.com/logos/Standard/case_transcript/icon.png</iconUrl>
+    <label>Customer Order Status</label>
+    <logoUrl>https://login.salesforce.com/logos/Standard/case_transcript/logo.svg</logoUrl>
+    <oauthConfig>
+        <callbackUrl>https://openidconnect.herokuapp.com/callback</callbackUrl>
+        <consumerKey>3MVG9k02hQhyUgQDGP2u0zSOkVO4YtFvhLoukE50Y4HkGXgUp5JXXh52qPHTchsX5n2eR.NajLqrQDUjftv4i</consumerKey>
+        <isAdminApproved>true</isAdminApproved>
+        <isClientCredentialEnabled>false</isClientCredentialEnabled>
+        <isCodeCredentialEnabled>false</isCodeCredentialEnabled>
+        <isCodeCredentialPostOnly>false</isCodeCredentialPostOnly>
+        <isConsumerSecretOptional>false</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <isNamedUserJwtEnabled>false</isNamedUserJwtEnabled>
+        <isPkceRequired>false</isPkceRequired>
+        <isRefreshTokenRotationEnabled>false</isRefreshTokenRotationEnabled>
+        <isSecretRequiredForRefreshToken>true</isSecretRequiredForRefreshToken>
+        <isSecretRequiredForTokenExchange>false</isSecretRequiredForTokenExchange>
+        <isTokenExchangeEnabled>false</isTokenExchangeEnabled>
+        <scopes>Api</scopes>
+        <scopes>Web</scopes>
+        <scopes>OpenID</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>BYPASS_2FACTOR</ipRelaxation>
+        <isTokenExchangeFlowEnabled>false</isTokenExchangeFlowEnabled>
+        <refreshTokenPolicy>zero</refreshTokenPolicy>
+    </oauthPolicy>
+    <permissionSetName>my permission set</permissionSetName>
+    <profileName>Custom: Support Profile</profileName>
+</ConnectedApp>
