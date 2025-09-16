@@ -194,6 +194,19 @@
         <name>SendEmail</name>
     </quickActions>
     <reportTypes>
+        <description><!-- Campaign --></description>
+        <label><!-- Campaign --></label>
+        <name>Campaign</name>
+        <sections>
+            <label><!-- Campaigns --></label>
+            <name>Campaigns</name>
+        </sections>
+        <sections>
+            <label><!-- Leads --></label>
+            <name>Leads</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
         <description><!-- Partner Fund Requests and Partner Fund C --></description>
         <label><!-- Partner Fund Requests and Partner Fund C --></label>
         <name>MDF_Claim_Request_Crt</name>
