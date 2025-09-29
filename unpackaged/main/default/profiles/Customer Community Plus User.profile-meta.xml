@@ -758,6 +758,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>Case.EntitlementId</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Case.IsEscalated</field>
         <readable>true</readable>
@@ -830,6 +835,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Case.Type</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Case.send_to_Customer__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>

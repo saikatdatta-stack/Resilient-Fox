@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EntitlementProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <SObjectType>Case</SObjectType>
+    <active>true</active>
+    <businessHours>India BH</businessHours>
+    <entryStartDateField>Case.send_to_Customer__c</entryStartDateField>
+    <exitCriteriaBooleanFilter>1 OR 2</exitCriteriaBooleanFilter>
+    <exitCriteriaFilterItems>
+        <field>Case.IsClosed</field>
+        <operation>equals</operation>
+        <value>true</value>
+    </exitCriteriaFilterItems>
+    <exitCriteriaFilterItems>
+        <field>Case.Status</field>
+        <operation>equals</operation>
+        <value>Waiting for Customer</value>
+    </exitCriteriaFilterItems>
+    <milestones>
+        <milestoneCriteriaFilterItems>
+            <field>Case.Type</field>
+            <operation>equals</operation>
+            <value>Structural</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneCriteriaFilterItems>
+            <field>Case.IsClosed</field>
+            <operation>equals</operation>
+            <value>false</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneName>NBD</milestoneName>
+        <minutesToComplete>1440</minutesToComplete>
+        <useCriteriaStartTime>false</useCriteriaStartTime>
+    </milestones>
+</EntitlementProcess>

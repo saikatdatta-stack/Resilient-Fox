@@ -1,33 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MatchingRules xmlns="http://soap.sforce.com/2006/04/metadata">
     <matchingRules>
-        <fullName>based_on_Emaiil</fullName>
-        <label>based on Emaiil</label>
+        <fullName>Account_Matching</fullName>
+        <label>Account Matching</label>
         <matchingRuleItems>
             <blankValueBehavior>NullNotAllowed</blankValueBehavior>
-            <fieldName>Email</fieldName>
-            <matchingMethod>Exact</matchingMethod>
+            <fieldName>Name</fieldName>
+            <matchingMethod>CompanyName</matchingMethod>
         </matchingRuleItems>
-        <ruleStatus>Inactive</ruleStatus>
-    </matchingRules>
-    <matchingRules>
-        <fullName>match_key_testing</fullName>
-        <label>match key testing</label>
         <matchingRuleItems>
             <blankValueBehavior>NullNotAllowed</blankValueBehavior>
-            <fieldName>AccountId</fieldName>
+            <fieldName>BillingStateCode</fieldName>
             <matchingMethod>Exact</matchingMethod>
         </matchingRuleItems>
         <matchingRuleItems>
             <blankValueBehavior>NullNotAllowed</blankValueBehavior>
-            <fieldName>FirstName</fieldName>
-            <matchingMethod>FirstName</matchingMethod>
+            <fieldName>BillingCountryCode</fieldName>
+            <matchingMethod>Exact</matchingMethod>
         </matchingRuleItems>
         <matchingRuleItems>
             <blankValueBehavior>NullNotAllowed</blankValueBehavior>
-            <fieldName>LastName</fieldName>
-            <matchingMethod>LastName</matchingMethod>
+            <fieldName>BillingPostalCode</fieldName>
+            <matchingMethod>Exact</matchingMethod>
         </matchingRuleItems>
-        <ruleStatus>Inactive</ruleStatus>
+        <ruleStatus>Active</ruleStatus>
     </matchingRules>
 </MatchingRules>

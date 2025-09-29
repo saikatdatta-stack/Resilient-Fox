@@ -86,6 +86,10 @@
                 <behavior>Required</behavior>
                 <field>CurrencyIsoCode</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>send_to_Customer__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
@@ -223,8 +227,8 @@
                 <customLink>UpsellCrosssellOpportunity</customLink>
             </layoutItems>
         </layoutColumns>
-        <layoutColumns/>
-        <layoutColumns/>
+        <layoutColumns />
+        <layoutColumns />
         <style>CustomLinks</style>
     </layoutSections>
     <quickActionList>

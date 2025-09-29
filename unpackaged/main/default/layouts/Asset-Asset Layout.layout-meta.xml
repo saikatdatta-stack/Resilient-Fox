@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Layout xmlns="http://soap.sforce.com/2006/04/metadata">
-    <headers>PersonalTagging</headers>
-    <headers>PublicTagging</headers>
+    <excludeButtons>OpenSlackRecordChannel</excludeButtons>
+    <excludeButtons>Submit</excludeButtons>
     <layoutSections>
         <customLabel>false</customLabel>
         <detailHeading>false</detailHeading>
@@ -70,9 +70,10 @@
         <style>TwoColumnsTopToBottom</style>
     </layoutSections>
     <layoutSections>
-        <customLabel>false</customLabel>
+        <customLabel>true</customLabel>
         <detailHeading>false</detailHeading>
         <editHeading>false</editHeading>
+        <label>Fields</label>
         <layoutColumns>
             <layoutItems>
                 <behavior>Readonly</behavior>
@@ -105,19 +106,27 @@
         <detailHeading>false</detailHeading>
         <editHeading>false</editHeading>
         <label>Additional Information</label>
-        <layoutColumns/>
-        <layoutColumns/>
+        <layoutColumns />
+        <layoutColumns />
         <style>TwoColumnsLeftToRight</style>
     </layoutSections>
     <layoutSections>
-        <customLabel>false</customLabel>
+        <customLabel>true</customLabel>
         <detailHeading>false</detailHeading>
         <editHeading>false</editHeading>
-        <layoutColumns/>
-        <layoutColumns/>
-        <layoutColumns/>
+        <label>Custom Links</label>
+        <layoutColumns />
+        <layoutColumns />
+        <layoutColumns />
         <style>CustomLinks</style>
     </layoutSections>
+    <relatedLists>
+        <fields>ENTITLEMENT.NAME</fields>
+        <fields>ENTITLEMENT.STARTDATE</fields>
+        <fields>ENTITLEMENT.ENDDATE</fields>
+        <fields>ENTITLEMENT.STATUS</fields>
+        <relatedList>RelatedEntitlementList</relatedList>
+    </relatedLists>
     <relatedLists>
         <fields>CASES.CASE_NUMBER</fields>
         <fields>NAME</fields>
@@ -156,4 +165,10 @@
     <showHighlightsPanel>false</showHighlightsPanel>
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
     <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
+    <summaryLayout>
+        <masterLabel>00hQy00000AUmIN</masterLabel>
+        <sizeX>4</sizeX>
+        <sizeY>0</sizeY>
+        <summaryLayoutStyle>Default</summaryLayoutStyle>
+    </summaryLayout>
 </Layout>
