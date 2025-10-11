@@ -3,5 +3,6 @@
     <fullName>ManagerId</fullName>
     <securityClassification>Confidential</securityClassification>
     <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
     <type>Hierarchy</type>
 </CustomField>

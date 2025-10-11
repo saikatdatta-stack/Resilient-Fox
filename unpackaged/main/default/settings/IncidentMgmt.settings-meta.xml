@@ -5,7 +5,6 @@
     <enableAutoCreationOfProblem>false</enableAutoCreationOfProblem>
     <enableChangeRequestValidations>false</enableChangeRequestValidations>
     <enableChatToIncidentAi>false</enableChatToIncidentAi>
-    <enableCommonPriorityMatrix>false</enableCommonPriorityMatrix>
     <enableDedupE2IncidentAttachment>false</enableDedupE2IncidentAttachment>
     <enableEmailBroadcastType>false</enableEmailBroadcastType>
     <enableEmailToIncident>false</enableEmailToIncident>
